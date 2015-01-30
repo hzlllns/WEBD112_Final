@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Ready Set Bake</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Mercury Interactive: Fumi Fujita, Talha Ansari, Sowjanya Sunnapu, and Hazel Llanes">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+	</head>
+		<body>
+
+			<!-- HOMEPAGE SECTION -->
+
+			<div id="homepage_section">
+				
+				<a href="#" id="logo"><img src="images/logo.png" alt="Home"></a>
+
+				<img src="images/home_iphone.png" alt="Ready Set Bake app" id="iphone">
+				
+				<div id="homepage_text">
+					<h1>Find the right bakery for your special event</h1>
+
+					<a href="#sms" class="action yellow">Download</a>
+					<a href="#features_section" class="action green">See Features</a>
+					
+					<a href="#" class="download"><img src="images/apple.png" alt="Download on iTunes"></a>
+					<a href="#" class="download"><img src="images/android.png" alt="Download on Google Play"></a>
+				</div>
+
+				<!-- HOMEPAGE: TEXT FORM -->
+				<div id="sms">
+					<h3>Send yourself a link to the app</h3>
+					<form>
+						<input type="text" placeholder="Your Mobile #" id="form_input">
+						<input type="submit" id="form_submit" value="Text Me">
+					</form>
+				</div>
+
+			</div>
+
+			<!-- FEATURES SECTION -->
+			<div id="features_section">
+
+				<!-- FEATURE 1 -->
+				<section class="feature first">
+				<div class="contain">	
+					<div class="left">
+						<h2>Locate bakeries near you</h2>
+						<p>With our geo-location map, Ready Set Bake makes it easy to compare prices and find the best deals close to your venue. </p>
+					</div>
+					<img src="images/feature1.png" alt="Geo-location" class="right">
+				</div>
+				</section>
+
+				<!-- FEATURE 2 -->
+				<section class="feature second">
+				<div class="contain">
+					<div class="right">
+						<h2>See what they have to offer</h2>
+						<p>Get a detailed look at each bakery’s menu, complete with photos from past events they catered for. Users can also bid on limited specialty items offered by bakeries.</p>
+					</div>
+					<img src="images/feature2.png" alt="Bakery menu" class="left">
+				</div>
+				</section>
+
+				<!-- FEATURE 3 -->
+				<section class="feature third">
+				<div class="contain">
+					<div class="left">
+						<h2 class="brown">Order your goods &amp; get it delivered</h2>
+						<p class="brown">The app’s simple interface makes ordering a breeze. It also includes home delivery options and a weekly subscription.</p>
+					</div>
+					<img src="images/feature3.png" alt="Order baked goods" class="right">
+				</div>
+				</section>
+
+			</div>
+
+			<!-- ABOUT SECTION -->
+			<div id="about_section">
+			
+				<h3 id="aboutUs">About Us</h3>
+				<p>Ready Set Bake was developed in Toronto by a small team of three. We are passionate about baked goods and are dedicated to building the best app possible.</p>
+				
+				<!-- ABOUT: SOCIAL LINKS -->
+				<h3 id="mediatext">Stay in touch!</h3>
+				<div id="media_icons">
+					<a href="#"><img src="images/social_email.png"></a>
+					<a href="#"><img src="images/social_twitter.png"></a>
+					<a href="#"><img src="images/social_facebook.png"></a>	
+				</div>
+				<div id="footer">
+					
+					<p><img src="images/footer_logo.png"><br >2013 &copy;Ready Set Bake</p>
+				</div>
+				
+			</div>
+
+		<!-- JQUERY -->	
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+		<!-- http://srobbin.com/jquery-plugins/backstretch/ -->
+		<script type="text/javascript">
+		  $("#homepage_section").backstretch("images/home_bg.jpg");
+		</script>
+
+		</body>
+</html>
